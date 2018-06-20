@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F52F52A720DA364C00647D7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F52A620DA364C00647D7F /* AppDelegate.m */; };
+		F52F52AA20DA364C00647D7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F52A920DA364C00647D7F /* ViewController.m */; };
+		F52F52AD20DA364C00647D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52F52AB20DA364C00647D7F /* Main.storyboard */; };
+		F52F52AF20DA364D00647D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52F52AE20DA364D00647D7F /* Assets.xcassets */; };
+		F52F52B220DA364D00647D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52F52B020DA364D00647D7F /* LaunchScreen.storyboard */; };
+		F52F52B520DA364D00647D7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F52B420DA364D00647D7F /* main.m */; };
+		F52F52BF20DA364D00647D7F /* MINISOAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F52BE20DA364D00647D7F /* MINISOAppTests.m */; };
+		F52F52CA20DA364D00647D7F /* MINISOAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F52C920DA364D00647D7F /* MINISOAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F52F52BB20DA364D00647D7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52F529A20DA364C00647D7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52F52A120DA364C00647D7F;
+			remoteInfo = MINISOApp;
+		};
+		F52F52C620DA364D00647D7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52F529A20DA364C00647D7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52F52A120DA364C00647D7F;
+			remoteInfo = MINISOApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F52F52A220DA364C00647D7F /* MINISOApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MINISOApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52F52A520DA364C00647D7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F52F52A620DA364C00647D7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F52F52A820DA364C00647D7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F52F52A920DA364C00647D7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F52F52AC20DA364C00647D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F52F52AE20DA364D00647D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F52F52B120DA364D00647D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F52F52B320DA364D00647D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52F52B420DA364D00647D7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F52F52BA20DA364D00647D7F /* MINISOAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MINISOAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52F52BE20DA364D00647D7F /* MINISOAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MINISOAppTests.m; sourceTree = "<group>"; };
+		F52F52C020DA364D00647D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52F52C520DA364D00647D7F /* MINISOAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MINISOAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52F52C920DA364D00647D7F /* MINISOAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MINISOAppUITests.m; sourceTree = "<group>"; };
+		F52F52CB20DA364D00647D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F52F529F20DA364C00647D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52F52B720DA364D00647D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52F52C220DA364D00647D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F52F529920DA364C00647D7F = {
+			isa = PBXGroup;
+			children = (
+				F52F52A420DA364C00647D7F /* MINISOApp */,
+				F52F52BD20DA364D00647D7F /* MINISOAppTests */,
+				F52F52C820DA364D00647D7F /* MINISOAppUITests */,
+				F52F52A320DA364C00647D7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F52F52A320DA364C00647D7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52F52A220DA364C00647D7F /* MINISOApp.app */,
+				F52F52BA20DA364D00647D7F /* MINISOAppTests.xctest */,
+				F52F52C520DA364D00647D7F /* MINISOAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F52F52A420DA364C00647D7F /* MINISOApp */ = {
+			isa = PBXGroup;
+			children = (
+				F52F52A520DA364C00647D7F /* AppDelegate.h */,
+				F52F52A620DA364C00647D7F /* AppDelegate.m */,
+				F52F52A820DA364C00647D7F /* ViewController.h */,
+				F52F52A920DA364C00647D7F /* ViewController.m */,
+				F52F52AB20DA364C00647D7F /* Main.storyboard */,
+				F52F52AE20DA364D00647D7F /* Assets.xcassets */,
+				F52F52B020DA364D00647D7F /* LaunchScreen.storyboard */,
+				F52F52B320DA364D00647D7F /* Info.plist */,
+				F52F52B420DA364D00647D7F /* main.m */,
+			);
+			path = MINISOApp;
+			sourceTree = "<group>";
+		};
+		F52F52BD20DA364D00647D7F /* MINISOAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F52F52BE20DA364D00647D7F /* MINISOAppTests.m */,
+				F52F52C020DA364D00647D7F /* Info.plist */,
+			);
+			path = MINISOAppTests;
+			sourceTree = "<group>";
+		};
+		F52F52C820DA364D00647D7F /* MINISOAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F52F52C920DA364D00647D7F /* MINISOAppUITests.m */,
+				F52F52CB20DA364D00647D7F /* Info.plist */,
+			);
+			path = MINISOAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F52F52A120DA364C00647D7F /* MINISOApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52F52CE20DA364D00647D7F /* Build configuration list for PBXNativeTarget "MINISOApp" */;
+			buildPhases = (
+				F52F529E20DA364C00647D7F /* Sources */,
+				F52F529F20DA364C00647D7F /* Frameworks */,
+				F52F52A020DA364C00647D7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MINISOApp;
+			productName = MINISOApp;
+			productReference = F52F52A220DA364C00647D7F /* MINISOApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F52F52B920DA364D00647D7F /* MINISOAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52F52D120DA364D00647D7F /* Build configuration list for PBXNativeTarget "MINISOAppTests" */;
+			buildPhases = (
+				F52F52B620DA364D00647D7F /* Sources */,
+				F52F52B720DA364D00647D7F /* Frameworks */,
+				F52F52B820DA364D00647D7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52F52BC20DA364D00647D7F /* PBXTargetDependency */,
+			);
+			name = MINISOAppTests;
+			productName = MINISOAppTests;
+			productReference = F52F52BA20DA364D00647D7F /* MINISOAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F52F52C420DA364D00647D7F /* MINISOAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52F52D420DA364D00647D7F /* Build configuration list for PBXNativeTarget "MINISOAppUITests" */;
+			buildPhases = (
+				F52F52C120DA364D00647D7F /* Sources */,
+				F52F52C220DA364D00647D7F /* Frameworks */,
+				F52F52C320DA364D00647D7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52F52C720DA364D00647D7F /* PBXTargetDependency */,
+			);
+			name = MINISOAppUITests;
+			productName = MINISOAppUITests;
+			productReference = F52F52C520DA364D00647D7F /* MINISOAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F52F529A20DA364C00647D7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Ebenchen;
+				TargetAttributes = {
+					F52F52A120DA364C00647D7F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F52F52B920DA364D00647D7F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F52F52A120DA364C00647D7F;
+					};
+					F52F52C420DA364D00647D7F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F52F52A120DA364C00647D7F;
+					};
+				};
+			};
+			buildConfigurationList = F52F529D20DA364C00647D7F /* Build configuration list for PBXProject "MINISOApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F52F529920DA364C00647D7F;
+			productRefGroup = F52F52A320DA364C00647D7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F52F52A120DA364C00647D7F /* MINISOApp */,
+				F52F52B920DA364D00647D7F /* MINISOAppTests */,
+				F52F52C420DA364D00647D7F /* MINISOAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F52F52A020DA364C00647D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52F52B220DA364D00647D7F /* LaunchScreen.storyboard in Resources */,
+				F52F52AF20DA364D00647D7F /* Assets.xcassets in Resources */,
+				F52F52AD20DA364C00647D7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52F52B820DA364D00647D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52F52C320DA364D00647D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F52F529E20DA364C00647D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52F52AA20DA364C00647D7F /* ViewController.m in Sources */,
+				F52F52B520DA364D00647D7F /* main.m in Sources */,
+				F52F52A720DA364C00647D7F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52F52B620DA364D00647D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52F52BF20DA364D00647D7F /* MINISOAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52F52C120DA364D00647D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52F52CA20DA364D00647D7F /* MINISOAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F52F52BC20DA364D00647D7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52F52A120DA364C00647D7F /* MINISOApp */;
+			targetProxy = F52F52BB20DA364D00647D7F /* PBXContainerItemProxy */;
+		};
+		F52F52C720DA364D00647D7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52F52A120DA364C00647D7F /* MINISOApp */;
+			targetProxy = F52F52C620DA364D00647D7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F52F52AB20DA364C00647D7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52F52AC20DA364C00647D7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F52F52B020DA364D00647D7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52F52B120DA364D00647D7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F52F52CC20DA364D00647D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F52F52CD20DA364D00647D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F52F52CF20DA364D00647D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MINISOApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MINISO.MINISOApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F52F52D020DA364D00647D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MINISOApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MINISO.MINISOApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F52F52D220DA364D00647D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MINISOAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MINISO.MINISOAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MINISOApp.app/MINISOApp";
+			};
+			name = Debug;
+		};
+		F52F52D320DA364D00647D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MINISOAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MINISO.MINISOAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MINISOApp.app/MINISOApp";
+			};
+			name = Release;
+		};
+		F52F52D520DA364D00647D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MINISOAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MINISO.MINISOAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MINISOApp;
+			};
+			name = Debug;
+		};
+		F52F52D620DA364D00647D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MINISOAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MINISO.MINISOAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MINISOApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F52F529D20DA364C00647D7F /* Build configuration list for PBXProject "MINISOApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52F52CC20DA364D00647D7F /* Debug */,
+				F52F52CD20DA364D00647D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52F52CE20DA364D00647D7F /* Build configuration list for PBXNativeTarget "MINISOApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52F52CF20DA364D00647D7F /* Debug */,
+				F52F52D020DA364D00647D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52F52D120DA364D00647D7F /* Build configuration list for PBXNativeTarget "MINISOAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52F52D220DA364D00647D7F /* Debug */,
+				F52F52D320DA364D00647D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52F52D420DA364D00647D7F /* Build configuration list for PBXNativeTarget "MINISOAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52F52D520DA364D00647D7F /* Debug */,
+				F52F52D620DA364D00647D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F52F529A20DA364C00647D7F /* Project object */;
+}
