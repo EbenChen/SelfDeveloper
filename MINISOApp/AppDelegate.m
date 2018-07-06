@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MINISOTabbarInitVM.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //初始化入口
+    [self initTabBarVCToKeyWindos];
+    
     return YES;
 }
 
@@ -47,5 +51,13 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+
+////custom Method
+//Create TabBar Item on The KeyWindows
+- (void)initTabBarVCToKeyWindos {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[MINISOTabbarInitVM new] tabBarInitItemToKeyWindoForItemVC];
+    [self.window makeKeyAndVisible];
+}
 
 @end
