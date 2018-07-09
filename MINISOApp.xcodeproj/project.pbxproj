@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2ADF986620F328D8004A205B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADF986520F328D8004A205B /* UIView+Frame.m */; };
+		2ADF986C20F32E17004A205B /* MINISO_Contact_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADF986920F32E16004A205B /* MINISO_Contact_View.m */; };
+		2ADF986D20F32E17004A205B /* MINISO_Contact_View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADF986B20F32E17004A205B /* MINISO_Contact_View.xib */; };
+		2ADF987720F33551004A205B /* MINISO_SignIn_Propmt_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADF987520F33551004A205B /* MINISO_SignIn_Propmt_ViewController.m */; };
+		2ADF987820F33551004A205B /* MINISO_SignIn_Propmt_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADF987620F33551004A205B /* MINISO_SignIn_Propmt_ViewController.xib */; };
 		CF4B9D737AB4715CEDC241A5 /* libPods-MINISOApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 485E9DE0E17E84D73832EEC8 /* libPods-MINISOApp.a */; };
 		F518D21220F2EB4E00789C63 /* MINISOHomepageBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F518D21120F2EB4E00789C63 /* MINISOHomepageBannerView.m */; };
 		F518D21420F2EB5D00789C63 /* MINISOHomepageBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F518D21320F2EB5D00789C63 /* MINISOHomepageBannerView.xib */; };
@@ -90,8 +93,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2ADF986420F328D8004A205B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		2ADF986520F328D8004A205B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		2ADF986920F32E16004A205B /* MINISO_Contact_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MINISO_Contact_View.m; sourceTree = "<group>"; };
+		2ADF986A20F32E17004A205B /* MINISO_Contact_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MINISO_Contact_View.h; sourceTree = "<group>"; };
+		2ADF986B20F32E17004A205B /* MINISO_Contact_View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MINISO_Contact_View.xib; sourceTree = "<group>"; };
+		2ADF987420F33551004A205B /* MINISO_SignIn_Propmt_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MINISO_SignIn_Propmt_ViewController.h; sourceTree = "<group>"; };
+		2ADF987520F33551004A205B /* MINISO_SignIn_Propmt_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MINISO_SignIn_Propmt_ViewController.m; sourceTree = "<group>"; };
+		2ADF987620F33551004A205B /* MINISO_SignIn_Propmt_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MINISO_SignIn_Propmt_ViewController.xib; sourceTree = "<group>"; };
 		485E9DE0E17E84D73832EEC8 /* libPods-MINISOApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MINISOApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA310854E8392E1C320979C4 /* Pods-MINISOApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MINISOApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MINISOApp/Pods-MINISOApp.release.xcconfig"; sourceTree = "<group>"; };
 		EE2BD20C140B8EC7D9997D11 /* Pods-MINISOApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MINISOApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MINISOApp/Pods-MINISOApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -249,6 +256,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2ADF986720F32DAB004A205B /* PublicClass */ = {
+			isa = PBXGroup;
+			children = (
+				2ADF986820F32DEA004A205B /* View */,
+			);
+			path = PublicClass;
+			sourceTree = "<group>";
+		};
+		2ADF986820F32DEA004A205B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2ADF986A20F32E17004A205B /* MINISO_Contact_View.h */,
+				2ADF986920F32E16004A205B /* MINISO_Contact_View.m */,
+				2ADF986B20F32E17004A205B /* MINISO_Contact_View.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		52DDB537109AE2D77492C9DC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +315,9 @@
 			children = (
 				F5C6699120DB939600F13D63 /* MINISOCenterItemViewController.h */,
 				F5C6699220DB939600F13D63 /* MINISOCenterItemViewController.m */,
+				2ADF987420F33551004A205B /* MINISO_SignIn_Propmt_ViewController.h */,
+				2ADF987520F33551004A205B /* MINISO_SignIn_Propmt_ViewController.m */,
+				2ADF987620F33551004A205B /* MINISO_SignIn_Propmt_ViewController.xib */,
 			);
 			path = "SigninBusinessVC(签到)";
 			sourceTree = "<group>";
@@ -662,8 +690,6 @@
 				F52F727920EF534A00CF2A8A /* UIImage+MINISOExtentsions.m */,
 				F52F727B20EF564600CF2A8A /* UIView+MINISOExtentsions.h */,
 				F52F727C20EF564600CF2A8A /* UIView+MINISOExtentsions.m */,
-				2ADF986420F328D8004A205B /* UIView+Frame.h */,
-				2ADF986520F328D8004A205B /* UIView+Frame.m */,
 			);
 			name = MINISOCategory;
 			path = MINISOApp/MINISOMain/MINISOCategory;
@@ -682,6 +708,7 @@
 		F5C6697B20DB902700F13D63 /* MINISOBusiness */ = {
 			isa = PBXGroup;
 			children = (
+				2ADF986720F32DAB004A205B /* PublicClass */,
 				F5C6697C20DB902700F13D63 /* BusinessVC */,
 				F5C6697D20DB902700F13D63 /* BusinessView */,
 				F5C6697E20DB902700F13D63 /* BusinessModel */,
@@ -819,6 +846,7 @@
 		F52F529A20DA364C00647D7F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MINISO_;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Ebenchen;
 				TargetAttributes = {
@@ -867,7 +895,9 @@
 				F518D22320F2F09500789C63 /* MINISOScavengingContentView.xib in Resources */,
 				F5397BC120E6364400E16713 /* MINISOContentMoreImageTableViewCell.xib in Resources */,
 				F52F52AF20DA364D00647D7F /* Assets.xcassets in Resources */,
+				2ADF986D20F32E17004A205B /* MINISO_Contact_View.xib in Resources */,
 				F518D21920F2EF7700789C63 /* MINISOAcceptsFactoryHeaderView.xib in Resources */,
+				2ADF987820F33551004A205B /* MINISO_SignIn_Propmt_ViewController.xib in Resources */,
 				F518D21E20F2F01500789C63 /* MINISOSigninListView.xib in Resources */,
 				F518D22820F2F15200789C63 /* MINISOGoodsInspectionMainView.xib in Resources */,
 			);
@@ -933,6 +963,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADF986C20F32E17004A205B /* MINISO_Contact_View.m in Sources */,
 				F5397BA820E5FDF500E16713 /* MINISOUniversalTableView.m in Sources */,
 				F53A4ED520E4B3E2009A1351 /* MINISOApiBaseModel.m in Sources */,
 				F518D23420F2F73B00789C63 /* goodsInspectionMainModel.m in Sources */,
@@ -941,6 +972,7 @@
 				F5E4FB4E20EA0F79002FC575 /* NSMutableDictionary+MINISOExtensions.m in Sources */,
 				F5397BB520E626B400E16713 /* UITableView+MINISOExtensions.m in Sources */,
 				F53A4EDB20E4C862009A1351 /* homePageDataModel.m in Sources */,
+				2ADF987720F33551004A205B /* MINISO_SignIn_Propmt_ViewController.m in Sources */,
 				F55DA42320E3753F004156E5 /* MINISOAppSystem.m in Sources */,
 				F5C6698720DB92A900F13D63 /* MINISOShoppingItemViewController.m in Sources */,
 				F59F49DE20E20C6E0062F261 /* MINISOBadgeView.m in Sources */,
@@ -962,7 +994,6 @@
 				F52F52A720DA364C00647D7F /* AppDelegate.m in Sources */,
 				F518D22B20F2F69D00789C63 /* acceptsFactoryMainModel.m in Sources */,
 				F53A4EE120E4C8EE009A1351 /* MINISOMMQListModel.m in Sources */,
-				2ADF986620F328D8004A205B /* UIView+Frame.m in Sources */,
 				F5C6699020DB938200F13D63 /* MINISOVerbItemViewController.m in Sources */,
 				F5E4FB5120EA34EE002FC575 /* NSObject+MINISOExtensions.m in Sources */,
 				F518D22120F2F08800789C63 /* MINISOScavengingContentView.m in Sources */,
@@ -1150,7 +1181,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MINISOApp/MINISO-Prefix.pch";
 				INFOPLIST_FILE = MINISOApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1173,7 +1204,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MINISOApp/MINISO-Prefix.pch";
 				INFOPLIST_FILE = MINISOApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

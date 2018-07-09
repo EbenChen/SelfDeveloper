@@ -19,7 +19,7 @@
 #ifdef __OBJC__
 
 #import "MINISOAPPConfig.h"
-#import "UIView+Frame.h"
+#import "UIView+MINISOExtentsions.h"
 
 #endif
 
