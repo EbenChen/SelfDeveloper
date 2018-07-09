@@ -206,6 +206,129 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F518D20120F2E36F00789C63 /* HomepageBusinessVC(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6698220DB90B900F13D63 /* MINISOHomeItemViewController.h */,
+				F5C6698320DB90B900F13D63 /* MINISOHomeItemViewController.m */,
+			);
+			path = "HomepageBusinessVC(首页)";
+			sourceTree = "<group>";
+		};
+		F518D20220F2E38A00789C63 /* GoodsInspectionBusinessVC(验货) */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6698520DB92A800F13D63 /* MINISOShoppingItemViewController.h */,
+				F5C6698620DB92A800F13D63 /* MINISOShoppingItemViewController.m */,
+			);
+			path = "GoodsInspectionBusinessVC(验货)";
+			sourceTree = "<group>";
+		};
+		F518D20320F2E38F00789C63 /* ScavengingBusinessVC(扫码) */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6698E20DB938200F13D63 /* MINISOVerbItemViewController.h */,
+				F5C6698F20DB938200F13D63 /* MINISOVerbItemViewController.m */,
+			);
+			path = "ScavengingBusinessVC(扫码)";
+			sourceTree = "<group>";
+		};
+		F518D20420F2E39200789C63 /* SigninBusinessVC(签到) */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6699120DB939600F13D63 /* MINISOCenterItemViewController.h */,
+				F5C6699220DB939600F13D63 /* MINISOCenterItemViewController.m */,
+			);
+			path = "SigninBusinessVC(签到)";
+			sourceTree = "<group>";
+		};
+		F518D20520F2E39700789C63 /* AcceptsFactoryBusinessVC(接受验厂) */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6698B20DB933700F13D63 /* MINISOOrdersItemViewController.h */,
+				F5C6698C20DB933700F13D63 /* MINISOOrdersItemViewController.m */,
+			);
+			path = "AcceptsFactoryBusinessVC(接受验厂)";
+			sourceTree = "<group>";
+		};
+		F518D20620F2E8C600789C63 /* HomepageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomepageView;
+			sourceTree = "<group>";
+		};
+		F518D20720F2E8DC00789C63 /* GoodsInspectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GoodsInspectionView;
+			sourceTree = "<group>";
+		};
+		F518D20820F2E8EA00789C63 /* ScavengingView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ScavengingView;
+			sourceTree = "<group>";
+		};
+		F518D20920F2E8ED00789C63 /* SigninView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SigninView;
+			sourceTree = "<group>";
+		};
+		F518D20A20F2E8F200789C63 /* AcceptsFactoryView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AcceptsFactoryView;
+			sourceTree = "<group>";
+		};
+		F518D20B20F2E92600789C63 /* GoodsInspectionModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GoodsInspectionModel;
+			sourceTree = "<group>";
+		};
+		F518D20C20F2E92D00789C63 /* SacvengingModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SacvengingModel;
+			sourceTree = "<group>";
+		};
+		F518D20D20F2E93000789C63 /* SigninModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SigninModel;
+			sourceTree = "<group>";
+		};
+		F518D20E20F2E93300789C63 /* AcceptsFactoryModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AcceptsFactoryModel;
+			sourceTree = "<group>";
+		};
+		F518D20F20F2E93700789C63 /* HomepageModel */ = {
+			isa = PBXGroup;
+			children = (
+				F53A4ED620E4B447009A1351 /* homePageModel.h */,
+				F53A4ED720E4B447009A1351 /* homePageModel.m */,
+				F53A4ED920E4C862009A1351 /* homePageDataModel.h */,
+				F53A4EDA20E4C862009A1351 /* homePageDataModel.m */,
+				F53A4EDC20E4C8DC009A1351 /* MINISOTLQListModel.h */,
+				F53A4EDD20E4C8DC009A1351 /* MINISOTLQListModel.m */,
+				F53A4EDF20E4C8EE009A1351 /* MINISOMMQListModel.h */,
+				F53A4EE020E4C8EE009A1351 /* MINISOMMQListModel.m */,
+			);
+			path = HomepageModel;
+			sourceTree = "<group>";
+		};
 		F52167ED20DA53B7008F52C0 /* MINISOMain */ = {
 			isa = PBXGroup;
 			children = (
@@ -442,16 +565,11 @@
 		F5C6697C20DB902700F13D63 /* BusinessVC */ = {
 			isa = PBXGroup;
 			children = (
-				F5C6698220DB90B900F13D63 /* MINISOHomeItemViewController.h */,
-				F5C6698320DB90B900F13D63 /* MINISOHomeItemViewController.m */,
-				F5C6698520DB92A800F13D63 /* MINISOShoppingItemViewController.h */,
-				F5C6698620DB92A800F13D63 /* MINISOShoppingItemViewController.m */,
-				F5C6698B20DB933700F13D63 /* MINISOOrdersItemViewController.h */,
-				F5C6698C20DB933700F13D63 /* MINISOOrdersItemViewController.m */,
-				F5C6698E20DB938200F13D63 /* MINISOVerbItemViewController.h */,
-				F5C6698F20DB938200F13D63 /* MINISOVerbItemViewController.m */,
-				F5C6699120DB939600F13D63 /* MINISOCenterItemViewController.h */,
-				F5C6699220DB939600F13D63 /* MINISOCenterItemViewController.m */,
+				F518D20120F2E36F00789C63 /* HomepageBusinessVC(首页) */,
+				F518D20520F2E39700789C63 /* AcceptsFactoryBusinessVC(接受验厂) */,
+				F518D20420F2E39200789C63 /* SigninBusinessVC(签到) */,
+				F518D20320F2E38F00789C63 /* ScavengingBusinessVC(扫码) */,
+				F518D20220F2E38A00789C63 /* GoodsInspectionBusinessVC(验货) */,
 			);
 			path = BusinessVC;
 			sourceTree = "<group>";
@@ -459,6 +577,11 @@
 		F5C6697D20DB902700F13D63 /* BusinessView */ = {
 			isa = PBXGroup;
 			children = (
+				F518D20620F2E8C600789C63 /* HomepageView */,
+				F518D20A20F2E8F200789C63 /* AcceptsFactoryView */,
+				F518D20920F2E8ED00789C63 /* SigninView */,
+				F518D20820F2E8EA00789C63 /* ScavengingView */,
+				F518D20720F2E8DC00789C63 /* GoodsInspectionView */,
 			);
 			path = BusinessView;
 			sourceTree = "<group>";
@@ -466,14 +589,11 @@
 		F5C6697E20DB902700F13D63 /* BusinessModel */ = {
 			isa = PBXGroup;
 			children = (
-				F53A4ED620E4B447009A1351 /* homePageModel.h */,
-				F53A4ED720E4B447009A1351 /* homePageModel.m */,
-				F53A4ED920E4C862009A1351 /* homePageDataModel.h */,
-				F53A4EDA20E4C862009A1351 /* homePageDataModel.m */,
-				F53A4EDC20E4C8DC009A1351 /* MINISOTLQListModel.h */,
-				F53A4EDD20E4C8DC009A1351 /* MINISOTLQListModel.m */,
-				F53A4EDF20E4C8EE009A1351 /* MINISOMMQListModel.h */,
-				F53A4EE020E4C8EE009A1351 /* MINISOMMQListModel.m */,
+				F518D20F20F2E93700789C63 /* HomepageModel */,
+				F518D20E20F2E93300789C63 /* AcceptsFactoryModel */,
+				F518D20D20F2E93000789C63 /* SigninModel */,
+				F518D20C20F2E92D00789C63 /* SacvengingModel */,
+				F518D20B20F2E92600789C63 /* GoodsInspectionModel */,
 			);
 			path = BusinessModel;
 			sourceTree = "<group>";
