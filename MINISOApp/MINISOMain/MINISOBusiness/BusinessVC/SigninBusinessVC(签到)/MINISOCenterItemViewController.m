@@ -9,29 +9,33 @@
 #import "MINISOCenterItemViewController.h"
 
 @interface MINISOCenterItemViewController ()
-
+{
+    UIView *mapView;
+    UIView *signInView;
+}
 @end
 
 @implementation MINISOCenterItemViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.navigationItem.title = @"签到";
+    
+    mapView = [[UIView alloc] initWithFrame:CGRectMake(0, 64, MAINSCREEN_WIDTH, 200)];
+    [self.view addSubview:mapView];
+    mapView.backgroundColor = [UIColor yellowColor];
+    
+    signInView = [[UIView alloc] initWithFrame:CGRectMake(0, mapView.bottom, MAINSCREEN_WIDTH, SCREEN_SAFE_HEIGHT - mapView.height)];
+    [self.view addSubview:signInView];
+    signInView.backgroundColor = [UIColor whiteColor];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
