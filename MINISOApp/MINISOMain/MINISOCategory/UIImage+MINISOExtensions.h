@@ -1,5 +1,5 @@
 //
-//  UIImage+MINISOExtentsions.h
+//  UIImage+MINISOExtensions.h
 //  MINISOApp
 //
 //  Created by Eben chen on 2018/7/6.
