@@ -47,7 +47,10 @@
 #define MINISOGrayColor [UIColor grayColor]
 #define MINISORedColor [UIColor redColor]
 #define MINISOTabBarTitleDefaultColor RGBSAMECOLOR(113)
-#define MINISOTabBarTitleSelectedColor RGBCOLOR (100, 174, 234)
+#define MINISOTabBarTitleSelectedColor RGBCOLOR(100, 174, 234)
+#define MINISONavigationBgColor RGBCOLOR(54,134,213)
+#define MINISONavigationTitleColor [UIColor whiteColor]
+#define MINISONavigationTintColor [UIColor whiteColor]
 
 #pragma mark ---默认占位图
 //正方形

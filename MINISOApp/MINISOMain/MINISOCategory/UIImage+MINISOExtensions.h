@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (MINISOExtentsions)
+@interface UIImage (MINISOExtensions)
 
 /**
  *  根据颜色生成一张图片

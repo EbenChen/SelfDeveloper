@@ -34,8 +34,8 @@
 		F52F52B520DA364D00647D7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F52B420DA364D00647D7F /* main.m */; };
 		F52F52BF20DA364D00647D7F /* MINISOAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F52BE20DA364D00647D7F /* MINISOAppTests.m */; };
 		F52F52CA20DA364D00647D7F /* MINISOAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F52C920DA364D00647D7F /* MINISOAppUITests.m */; };
-		F52F727A20EF534A00CF2A8A /* UIImage+MINISOExtentsions.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F727920EF534A00CF2A8A /* UIImage+MINISOExtentsions.m */; };
-		F52F727D20EF564600CF2A8A /* UIView+MINISOExtentsions.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F727C20EF564600CF2A8A /* UIView+MINISOExtentsions.m */; };
+		F52F727A20EF534A00CF2A8A /* UIImage+MINISOExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F727920EF534A00CF2A8A /* UIImage+MINISOExtensions.m */; };
+		F52F727D20EF564600CF2A8A /* UIView+MINISOExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F727C20EF564600CF2A8A /* UIView+MINISOExtensions.m */; };
 		F5397BA820E5FDF500E16713 /* MINISOUniversalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5397BA720E5FDF500E16713 /* MINISOUniversalTableView.m */; };
 		F5397BAC20E6232B00E16713 /* MINISOOnlyContentTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5397BAB20E6232B00E16713 /* MINISOOnlyContentTextTableViewCell.m */; };
 		F5397BAF20E6235700E16713 /* MINISOContentOneImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5397BAE20E6235700E16713 /* MINISOContentOneImageTableViewCell.m */; };
@@ -56,6 +56,11 @@
 		F55DA42320E3753F004156E5 /* MINISOAppSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = F55DA42220E3753F004156E5 /* MINISOAppSystem.m */; };
 		F55DA42620E3840A004156E5 /* NSString+MINISOExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F55DA42520E3840A004156E5 /* NSString+MINISOExtensions.m */; };
 		F55DA42920E3980B004156E5 /* NSDate+MINISOExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F55DA42820E3980B004156E5 /* NSDate+MINISOExtensions.m */; };
+		F58B1C6C20F443FD00A8EBFA /* MINISOCustomNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F58B1C6B20F443FD00A8EBFA /* MINISOCustomNavigationVC.m */; };
+		F58B1C7020F44F0C00A8EBFA /* homePageTempListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F58B1C6E20F44F0C00A8EBFA /* homePageTempListVC.m */; };
+		F58B1C7120F44F0C00A8EBFA /* homePageTempListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58B1C6F20F44F0C00A8EBFA /* homePageTempListVC.xib */; };
+		F58B1C7420F4856E00A8EBFA /* UINavigationController+MINISOExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F58B1C7320F4856E00A8EBFA /* UINavigationController+MINISOExtensions.m */; };
+		F58B1C7720F48ED400A8EBFA /* UINavigationItem+MINISOExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F58B1C7620F48ED400A8EBFA /* UINavigationItem+MINISOExtensions.m */; };
 		F58CCF7320DCA04800E2F8AA /* MINISOTabbarInitVM.m in Sources */ = {isa = PBXBuildFile; fileRef = F58CCF7220DCA04800E2F8AA /* MINISOTabbarInitVM.m */; };
 		F58CCF7620DCA7D700E2F8AA /* MINISOTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F58CCF7520DCA7D700E2F8AA /* MINISOTabBarView.m */; };
 		F59F49DB20E20C140062F261 /* UITabBar+MINISOBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = F59F49DA20E20C140062F261 /* UITabBar+MINISOBadge.m */; };
@@ -140,10 +145,10 @@
 		F52F52C520DA364D00647D7F /* MINISOAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MINISOAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F52F52C920DA364D00647D7F /* MINISOAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MINISOAppUITests.m; sourceTree = "<group>"; };
 		F52F52CB20DA364D00647D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F52F727820EF534A00CF2A8A /* UIImage+MINISOExtentsions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MINISOExtentsions.h"; sourceTree = "<group>"; };
-		F52F727920EF534A00CF2A8A /* UIImage+MINISOExtentsions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MINISOExtentsions.m"; sourceTree = "<group>"; };
-		F52F727B20EF564600CF2A8A /* UIView+MINISOExtentsions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MINISOExtentsions.h"; sourceTree = "<group>"; };
-		F52F727C20EF564600CF2A8A /* UIView+MINISOExtentsions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MINISOExtentsions.m"; sourceTree = "<group>"; };
+		F52F727820EF534A00CF2A8A /* UIImage+MINISOExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MINISOExtensions.h"; sourceTree = "<group>"; };
+		F52F727920EF534A00CF2A8A /* UIImage+MINISOExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MINISOExtensions.m"; sourceTree = "<group>"; };
+		F52F727B20EF564600CF2A8A /* UIView+MINISOExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MINISOExtensions.h"; sourceTree = "<group>"; };
+		F52F727C20EF564600CF2A8A /* UIView+MINISOExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MINISOExtensions.m"; sourceTree = "<group>"; };
 		F5397BA620E5FDF500E16713 /* MINISOUniversalTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MINISOUniversalTableView.h; sourceTree = "<group>"; };
 		F5397BA720E5FDF500E16713 /* MINISOUniversalTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MINISOUniversalTableView.m; sourceTree = "<group>"; };
 		F5397BAA20E6232B00E16713 /* MINISOOnlyContentTextTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MINISOOnlyContentTextTableViewCell.h; sourceTree = "<group>"; };
@@ -181,6 +186,15 @@
 		F55DA42520E3840A004156E5 /* NSString+MINISOExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MINISOExtensions.m"; sourceTree = "<group>"; };
 		F55DA42720E3980B004156E5 /* NSDate+MINISOExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+MINISOExtensions.h"; sourceTree = "<group>"; };
 		F55DA42820E3980B004156E5 /* NSDate+MINISOExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MINISOExtensions.m"; sourceTree = "<group>"; };
+		F58B1C6A20F443FD00A8EBFA /* MINISOCustomNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MINISOCustomNavigationVC.h; sourceTree = "<group>"; };
+		F58B1C6B20F443FD00A8EBFA /* MINISOCustomNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MINISOCustomNavigationVC.m; sourceTree = "<group>"; };
+		F58B1C6D20F44F0C00A8EBFA /* homePageTempListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homePageTempListVC.h; sourceTree = "<group>"; };
+		F58B1C6E20F44F0C00A8EBFA /* homePageTempListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homePageTempListVC.m; sourceTree = "<group>"; };
+		F58B1C6F20F44F0C00A8EBFA /* homePageTempListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = homePageTempListVC.xib; sourceTree = "<group>"; };
+		F58B1C7220F4856E00A8EBFA /* UINavigationController+MINISOExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MINISOExtensions.h"; sourceTree = "<group>"; };
+		F58B1C7320F4856E00A8EBFA /* UINavigationController+MINISOExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MINISOExtensions.m"; sourceTree = "<group>"; };
+		F58B1C7520F48ED400A8EBFA /* UINavigationItem+MINISOExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+MINISOExtensions.h"; sourceTree = "<group>"; };
+		F58B1C7620F48ED400A8EBFA /* UINavigationItem+MINISOExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+MINISOExtensions.m"; sourceTree = "<group>"; };
 		F58CCF7120DCA04800E2F8AA /* MINISOTabbarInitVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MINISOTabbarInitVM.h; sourceTree = "<group>"; };
 		F58CCF7220DCA04800E2F8AA /* MINISOTabbarInitVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MINISOTabbarInitVM.m; sourceTree = "<group>"; };
 		F58CCF7420DCA7D700E2F8AA /* MINISOTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MINISOTabBarView.h; sourceTree = "<group>"; };
@@ -260,6 +274,9 @@
 			children = (
 				F5C6698220DB90B900F13D63 /* MINISOHomeItemViewController.h */,
 				F5C6698320DB90B900F13D63 /* MINISOHomeItemViewController.m */,
+				F58B1C6D20F44F0C00A8EBFA /* homePageTempListVC.h */,
+				F58B1C6E20F44F0C00A8EBFA /* homePageTempListVC.m */,
+				F58B1C6F20F44F0C00A8EBFA /* homePageTempListVC.xib */,
 			);
 			path = "HomepageBusinessVC(首页)";
 			sourceTree = "<group>";
@@ -456,6 +473,7 @@
 		F52167ED20DA53B7008F52C0 /* MINISOMain */ = {
 			isa = PBXGroup;
 			children = (
+				F58B1C6920F4436F00A8EBFA /* MINISONavigationController */,
 				F53A4ED220E4B3B0009A1351 /* MINISOBaseObject */,
 				F59F49D820E20B480062F261 /* MINISOCategory */,
 				F5C6698120DB902700F13D63 /* MINISOAPPConfig */,
@@ -638,6 +656,15 @@
 			path = "MINISONetWorking(网络库)";
 			sourceTree = "<group>";
 		};
+		F58B1C6920F4436F00A8EBFA /* MINISONavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				F58B1C6A20F443FD00A8EBFA /* MINISOCustomNavigationVC.h */,
+				F58B1C6B20F443FD00A8EBFA /* MINISOCustomNavigationVC.m */,
+			);
+			path = MINISONavigationController;
+			sourceTree = "<group>";
+		};
 		F59F49D820E20B480062F261 /* MINISOCategory */ = {
 			isa = PBXGroup;
 			children = (
@@ -655,10 +682,14 @@
 				F5E4FB4D20EA0F79002FC575 /* NSMutableDictionary+MINISOExtensions.m */,
 				F5E4FB4F20EA34EE002FC575 /* NSObject+MINISOExtensions.h */,
 				F5E4FB5020EA34EE002FC575 /* NSObject+MINISOExtensions.m */,
-				F52F727820EF534A00CF2A8A /* UIImage+MINISOExtentsions.h */,
-				F52F727920EF534A00CF2A8A /* UIImage+MINISOExtentsions.m */,
-				F52F727B20EF564600CF2A8A /* UIView+MINISOExtentsions.h */,
-				F52F727C20EF564600CF2A8A /* UIView+MINISOExtentsions.m */,
+				F52F727820EF534A00CF2A8A /* UIImage+MINISOExtensions.h */,
+				F52F727920EF534A00CF2A8A /* UIImage+MINISOExtensions.m */,
+				F52F727B20EF564600CF2A8A /* UIView+MINISOExtensions.h */,
+				F52F727C20EF564600CF2A8A /* UIView+MINISOExtensions.m */,
+				F58B1C7220F4856E00A8EBFA /* UINavigationController+MINISOExtensions.h */,
+				F58B1C7320F4856E00A8EBFA /* UINavigationController+MINISOExtensions.m */,
+				F58B1C7520F48ED400A8EBFA /* UINavigationItem+MINISOExtensions.h */,
+				F58B1C7620F48ED400A8EBFA /* UINavigationItem+MINISOExtensions.m */,
 			);
 			name = MINISOCategory;
 			path = MINISOApp/MINISOMain/MINISOCategory;
@@ -860,6 +891,7 @@
 				F5397BBD20E6355C00E16713 /* MINISOOnlyContentTextTableViewCell.xib in Resources */,
 				F518D21420F2EB5D00789C63 /* MINISOHomepageBannerView.xib in Resources */,
 				F518D22320F2F09500789C63 /* MINISOScavengingContentView.xib in Resources */,
+				F58B1C7120F44F0C00A8EBFA /* homePageTempListVC.xib in Resources */,
 				F5397BC120E6364400E16713 /* MINISOContentMoreImageTableViewCell.xib in Resources */,
 				F52F52AF20DA364D00647D7F /* Assets.xcassets in Resources */,
 				F518D21920F2EF7700789C63 /* MINISOAcceptsFactoryHeaderView.xib in Resources */,
@@ -930,7 +962,9 @@
 			files = (
 				F5397BA820E5FDF500E16713 /* MINISOUniversalTableView.m in Sources */,
 				F53A4ED520E4B3E2009A1351 /* MINISOApiBaseModel.m in Sources */,
+				F58B1C6C20F443FD00A8EBFA /* MINISOCustomNavigationVC.m in Sources */,
 				F518D23420F2F73B00789C63 /* goodsInspectionMainModel.m in Sources */,
+				F58B1C7720F48ED400A8EBFA /* UINavigationItem+MINISOExtensions.m in Sources */,
 				F5397BAC20E6232B00E16713 /* MINISOOnlyContentTextTableViewCell.m in Sources */,
 				F58CCF7620DCA7D700E2F8AA /* MINISOTabBarView.m in Sources */,
 				F5E4FB4E20EA0F79002FC575 /* NSMutableDictionary+MINISOExtensions.m in Sources */,
@@ -943,7 +977,7 @@
 				F55DA42620E3840A004156E5 /* NSString+MINISOExtensions.m in Sources */,
 				F518D24820F300CE00789C63 /* MINISOGoodsInspectionVM.m in Sources */,
 				F5C6699920DB994100F13D63 /* MINISOTabBarController.m in Sources */,
-				F52F727D20EF564600CF2A8A /* UIView+MINISOExtentsions.m in Sources */,
+				F52F727D20EF564600CF2A8A /* UIView+MINISOExtensions.m in Sources */,
 				F5397BB220E6237500E16713 /* MINISOContentMoreImageTableViewCell.m in Sources */,
 				F52F52AA20DA364C00647D7F /* ViewController.m in Sources */,
 				F518D23120F2F72500789C63 /* sacvengingMainModel.m in Sources */,
@@ -964,12 +998,14 @@
 				F53A4ED820E4B447009A1351 /* homePageModel.m in Sources */,
 				F5C6698D20DB933700F13D63 /* MINISOOrdersItemViewController.m in Sources */,
 				F53A4ED120E48301009A1351 /* MINISOAppModelMirror.m in Sources */,
+				F58B1C7420F4856E00A8EBFA /* UINavigationController+MINISOExtensions.m in Sources */,
 				F518D23C20F3002A00789C63 /* MINISOHomePageVM.m in Sources */,
+				F58B1C7020F44F0C00A8EBFA /* homePageTempListVC.m in Sources */,
 				F518D21C20F2F00100789C63 /* MINISOSigninListView.m in Sources */,
 				F518D21720F2EF6600789C63 /* MINISOAcceptsFactoryHeaderView.m in Sources */,
 				F518D24520F300B800789C63 /* MINISOScavengingVM.m in Sources */,
 				F53A4ECB20E46C04009A1351 /* MINISONetworkTypeKit.m in Sources */,
-				F52F727A20EF534A00CF2A8A /* UIImage+MINISOExtentsions.m in Sources */,
+				F52F727A20EF534A00CF2A8A /* UIImage+MINISOExtensions.m in Sources */,
 				F58CCF7320DCA04800E2F8AA /* MINISOTabbarInitVM.m in Sources */,
 				F518D23F20F3004700789C63 /* MINISOAcceptsFactoryVM.m in Sources */,
 				F5397BAF20E6235700E16713 /* MINISOContentOneImageTableViewCell.m in Sources */,
@@ -1149,7 +1185,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.miniso.purchasePlatfrom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniso.QualityAssuranceSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1172,7 +1208,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.miniso.purchasePlatfrom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniso.QualityAssuranceSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

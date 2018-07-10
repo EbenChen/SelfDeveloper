@@ -12,6 +12,8 @@
 #import "MINISOAppModelMirror.h"
 #import "homePageModel.h"
 
+#import "homePageTempListVC.h"
+
 @interface MINISOHomeItemViewController ()
 
 @property (nonatomic, strong) MINISOUniversalTableView *listTable;
@@ -29,6 +31,10 @@
     
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    //[self.navigationController navigationTransparentState:NO];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -37,7 +43,13 @@
 - (void)createListTableView {
     self.listTable = [[MINISOUniversalTableView alloc] initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 64 - 49) tableStyle:UITableViewStylePlain delegate:self registerCellType:MINISORegisterCellTypeText];
     [self.listTable selectTableViewCell:^(id cellModelData) {
-        NSLog(@"data(MINISOTLQListModel) = %@",cellModelData);
+        MINISOTLQListModel *cellModel = (MINISOTLQListModel *)cellModelData;
+        
+        homePageTempListVC *tmpListVC =[[homePageTempListVC alloc] initWithNibName:@"homePageTempListVC" bundle:nil];
+        tmpListVC.hidesBottomBarWhenPushed = YES;
+        tmpListVC.title = cellModel.forum_name;
+        //[self.navigationController navigationTransparentState:YES];
+        [self.navigationController pushViewController:tmpListVC animated:YES];
     }];
     //刷新回调
     [self.listTable refreshDataBlock:^(BOOL refreshDirection) {

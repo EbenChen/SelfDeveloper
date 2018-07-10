@@ -20,5 +20,7 @@
 
 #import "MINISOAPPConfig.h"
 
+#import "MINISOCustomNavigationVC.h"
+
 #endif
 

@@ -6,9 +6,9 @@
 //  Copyright © 2018年 Ebenchen. All rights reserved.
 //
 
-#import "UIView+MINISOExtentsions.h"
+#import "UIView+MINISOExtensions.h"
 
-@implementation UIView (MINISOExtentsions)
+@implementation UIView (MINISOExtensions)
 
 - (void)setX:(CGFloat)x
 {
@@ -134,9 +134,9 @@
     CGRect winBounds = keyWindow.bounds;
     //判断两个坐标系是否有交汇的地方，返回bool值
     BOOL isIntersects =  CGRectIntersectsRect(newRect, winBounds);
-    if (self.hidden != YES && self.alpha >0.01 && self.window == keyWindow && isIntersects) {
+    if (self.hidden != YES && self.alpha > 0.01 && self.window == keyWindow && isIntersects) {
         return YES;
-    }else{
+    } else {
         return NO;
     }
 }

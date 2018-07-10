@@ -7,8 +7,8 @@
 //
 
 #import "MINISOTabBarView.h"
-#import "UIImage+MINISOExtentsions.h"
-#import "UIView+MINISOExtentsions.h"
+#import "UIImage+MINISOExtensions.h"
+#import "UIView+MINISOExtensions.h"
 
 #define TabBarItemMagin 10
 

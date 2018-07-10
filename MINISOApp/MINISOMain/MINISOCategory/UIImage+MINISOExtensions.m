@@ -6,9 +6,9 @@
 //  Copyright © 2018年 Ebenchen. All rights reserved.
 //
 
-#import "UIImage+MINISOExtentsions.h"
+#import "UIImage+MINISOExtensions.h"
 
-@implementation UIImage (MINISOExtentsions)
+@implementation UIImage (MINISOExtensions)
 
 + (UIImage *)imageWithColor:(UIColor *)color {
     

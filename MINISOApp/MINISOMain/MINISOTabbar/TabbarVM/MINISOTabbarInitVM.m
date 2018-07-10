@@ -8,7 +8,7 @@
 
 #import "MINISOTabbarInitVM.h"
 #import "UITabBar+MINISOBadge.h"
-#import "UIImage+MINISOExtentsions.h"
+#import "UIImage+MINISOExtensions.h"
 
 @implementation MINISOTabbarInitVM
 
@@ -57,11 +57,11 @@ CGFloat const MINISOTabBarItemImageHeight = 25.0;
     centerVC.tabBarItem.selectedImage = [UIImage imageWithColor:[UIColor whiteColor]];
     //centerVC.tabBarItem.badgeValue = self.centerItemModel.itemBadgeValue;
     
-    UINavigationController *homeVCNavigation = [[UINavigationController alloc] initWithRootViewController:homeVC];
-    UINavigationController *shoppingVCNavigation = [[UINavigationController alloc] initWithRootViewController:shoppingVC];
-    UINavigationController *ordersVCNavigation = [[UINavigationController alloc] initWithRootViewController:ordersVC];
-    UINavigationController *verbsVCNavigation = [[UINavigationController alloc] initWithRootViewController:verbsVC];
-    UINavigationController *centerVCNavigation = [[UINavigationController alloc] initWithRootViewController:centerVC];
+    MINISOCustomNavigationVC *homeVCNavigation = [[MINISOCustomNavigationVC alloc] initWithRootViewController:homeVC];
+    MINISOCustomNavigationVC *shoppingVCNavigation = [[MINISOCustomNavigationVC alloc] initWithRootViewController:shoppingVC];
+    MINISOCustomNavigationVC *ordersVCNavigation = [[MINISOCustomNavigationVC alloc] initWithRootViewController:ordersVC];
+    MINISOCustomNavigationVC *verbsVCNavigation = [[MINISOCustomNavigationVC alloc] initWithRootViewController:verbsVC];
+    MINISOCustomNavigationVC *centerVCNavigation = [[MINISOCustomNavigationVC alloc] initWithRootViewController:centerVC];
     
     MINISOTabBarController *tabbarItemsVC = [[MINISOTabBarController alloc] init];
     tabbarItemsVC.viewControllers = @[homeVCNavigation, ordersVCNavigation, centerVCNavigation, verbsVCNavigation, shoppingVCNavigation];
